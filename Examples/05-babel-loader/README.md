@@ -38,4 +38,10 @@ cd myfirstWebpack/Examples/05-babel-loader
 webpack
 ```
 
+或是：
+
+```bash
+webpack -p
+```
+
 若沒設定參數，預設會讀取 webpack.config.js 檔。
