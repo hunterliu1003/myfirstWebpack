@@ -1,4 +1,4 @@
-# 02-easyWebpackConfig
+# 03-style and css loader
 
 先下載整個範例庫：
 
