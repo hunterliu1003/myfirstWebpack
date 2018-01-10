@@ -1,0 +1,19 @@
+{
+  "name": "my-first-webpack",
+  "version": "1.0.0",
+  "description": "webpack practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunterliu1003/myfirstWebpack.git"
+  },
+  "author": "Hunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hunterliu1003/myfirstWebpack/issues"
+  },
+  "homepage": "https://github.com/hunterliu1003/myfirstWebpack#readme"
+}

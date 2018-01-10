@@ -5,8 +5,6 @@
 
 ### easy webpack
 
-### --watch
-
 ### easy webpack.config.js
 
 ### style-loader & css-loader

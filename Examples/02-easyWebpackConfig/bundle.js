@@ -65,9 +65,51 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sayHello_js__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Hunter_js__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Hunter_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__Hunter_js__);
+
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__sayHello_js__["a" /* default */])('Hunter');
+
+document.write(`
+  <p>Hunter.js:</p>
+  <h1>Hello, ${__WEBPACK_IMPORTED_MODULE_1__Hunter_js__["name"]}</h1>
+  <h1>I know ${__WEBPACK_IMPORTED_MODULE_1__Hunter_js__["skills"]}</h1>
+  <h1>I am from ${__WEBPACK_IMPORTED_MODULE_1__Hunter_js__["location"]}</h1>
+`);
+
+/***/ }),
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = sayHello;
+const HELLO = 'Hello, ';
+
+function sayHello(name) {
+  document.write(`
+    <p>sayHello.js:</p>
+    <h1>${HELLO}${name}</h1>
+  `);
+}
+
+/***/ }),
+/* 2 */
 /***/ (function(module, exports) {
 
-document.write("It works from entry.js.");
+const HUNTER = {
+  name: 'Hunter',
+  skills: ['vue.js', 'webpack'],
+  location: 'Taiwan'
+}
+
+module.exports = HUNTER;
 
 /***/ })
 /******/ ]);
