@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/hunterliu1003/myfirstWebpack/issues"
   },
-  "homepage": "https://github.com/hunterliu1003/myfirstWebpack#readme"
+  "homepage": "https://github.com/hunterliu1003/myfirstWebpack#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.8",
+    "style-loader": "^0.19.1"
+  }
 }
