@@ -1,4 +1,4 @@
-# 03-style and css loader
+# 05-babel-loader
 
 先下載整個範例庫：
 
@@ -12,8 +12,6 @@ git clone https://github.com/hunterliu1003/myfirstWebpack.git
 npm install webpack -g
 ```
 
-本範例會用到 style-loader, css-loader, sass-loader, node-sass。
-
 你可以下載本範例後直接執行：
 
 ```bash
@@ -25,13 +23,13 @@ npm install
 或是：
 
 ```bash
-npm install style-loader css-loader sass-loader node-sass --save-dev
+npm install babel-loader@8.0.0-beta.0 @babel/core @babel/preset-env --save-dev
 ```
 
 請切換到目錄: ~/myfirstWebpack/Examples/02-easyWebpackConfig 底下
 
 ```bash
-cd myfirstWebpack/Examples/02-easyWebpackConfig
+cd myfirstWebpack/Examples/05-babel-loader
 ```
 
 執行：

@@ -28,10 +28,10 @@ npm install
 npm install style-loader css-loader --save-dev
 ```
 
-請切換到目錄: ~/myfirstWebpack/Examples/02-easyWebpackConfig 底下
+請切換到目錄: ~/myfirstWebpack/Examples/03-tyle-and-css-loader 底下
 
 ```bash
-cd myfirstWebpack/Examples/02-easyWebpackConfig
+cd myfirstWebpack/Examples/03-tyle-and-css-loader
 ```
 
 執行：

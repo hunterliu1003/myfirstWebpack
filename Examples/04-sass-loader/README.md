@@ -1,4 +1,4 @@
-# 03-style and css loader
+# 04-sass-loader
 
 先下載整個範例庫：
 
@@ -28,10 +28,10 @@ npm install
 npm install style-loader css-loader sass-loader node-sass --save-dev
 ```
 
-請切換到目錄: ~/myfirstWebpack/Examples/02-easyWebpackConfig 底下
+請切換到目錄: ~/myfirstWebpack/Examples/04-sass-loader 底下
 
 ```bash
-cd myfirstWebpack/Examples/02-easyWebpackConfig
+cd myfirstWebpack/Examples/04-sass-loader
 ```
 
 執行：
