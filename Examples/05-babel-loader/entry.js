@@ -1,5 +1,6 @@
 import sayHello from './sayHello.js'
 import {name, skills, location} from './Hunter.js'
+require('./console.js')
 
 sayHello('Hunter');
 

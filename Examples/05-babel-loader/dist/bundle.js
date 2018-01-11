@@ -76,6 +76,8 @@ var _Hunter = __webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+__webpack_require__(3);
+
 (0, _sayHello.default)('Hunter');
 document.write("\n  <p>Hunter.js:</p>\n  <h1>Hello, ".concat(_Hunter.name, "</h1>\n  <h1>I know ").concat(_Hunter.skills, "</h1>\n  <h1>I am from ").concat(_Hunter.location, "</h1>\n"));
 
@@ -106,6 +108,12 @@ var HUNTER = {
   location: 'Taiwan'
 };
 module.exports = HUNTER;
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+console.log('console.js: easy webpack !');
 
 /***/ })
 /******/ ]);
